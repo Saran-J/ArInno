@@ -15,6 +15,9 @@
 		0F6C82C0232D5F1500C38528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C82BE232D5F1500C38528 /* LaunchScreen.storyboard */; };
 		0F6C82CB232D5F1500C38528 /* ArInnoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C82CA232D5F1500C38528 /* ArInnoTests.swift */; };
 		0F6C82D6232D5F1500C38528 /* ArInnoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C82D5232D5F1500C38528 /* ArInnoUITests.swift */; };
+		BB5449A728BAAE39E4F01B03 /* Pods_ArInnoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BB09048544C16C60689AFE /* Pods_ArInnoUITests.framework */; };
+		C07A528C80E7F6564D414B09 /* Pods_ArInnoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC30C81D515F4B1A38F6098 /* Pods_ArInnoTests.framework */; };
+		EE87A0340343CE204F615276 /* Pods_ArInno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49F40078B417D009BA22499 /* Pods_ArInno.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A4009B8B27170475071439 /* Pods-ArInno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArInno.release.xcconfig"; path = "Target Support Files/Pods-ArInno/Pods-ArInno.release.xcconfig"; sourceTree = "<group>"; };
 		0F6C82B0232D5F1400C38528 /* ArInno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArInno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6C82B3232D5F1400C38528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F6C82B5232D5F1400C38528 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		0F6C82D1232D5F1500C38528 /* ArInnoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArInnoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6C82D5232D5F1500C38528 /* ArInnoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArInnoUITests.swift; sourceTree = "<group>"; };
 		0F6C82D7232D5F1500C38528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BB09048544C16C60689AFE /* Pods_ArInnoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArInnoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC30C81D515F4B1A38F6098 /* Pods_ArInnoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArInnoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55191FE7CB65D75C10D24F23 /* Pods-ArInnoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArInnoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArInnoUITests/Pods-ArInnoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE57E2E749195D2E1CEE74A /* Pods-ArInno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArInno.debug.xcconfig"; path = "Target Support Files/Pods-ArInno/Pods-ArInno.debug.xcconfig"; sourceTree = "<group>"; };
+		917CE0A4EC45A16AF200F9DA /* Pods-ArInnoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArInnoTests.release.xcconfig"; path = "Target Support Files/Pods-ArInnoTests/Pods-ArInnoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD0B06AB4E9C4DEFD6227B24 /* Pods-ArInnoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArInnoTests.debug.xcconfig"; path = "Target Support Files/Pods-ArInnoTests/Pods-ArInnoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E49F40078B417D009BA22499 /* Pods_ArInno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArInno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4E9AD0C4890C18E69E6E7F /* Pods-ArInnoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArInnoUITests.release.xcconfig"; path = "Target Support Files/Pods-ArInnoUITests/Pods-ArInnoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE87A0340343CE204F615276 /* Pods_ArInno.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07A528C80E7F6564D414B09 /* Pods_ArInnoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5449A728BAAE39E4F01B03 /* Pods_ArInnoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0F6C82C9232D5F1500C38528 /* ArInnoTests */,
 				0F6C82D4232D5F1500C38528 /* ArInnoUITests */,
 				0F6C82B1232D5F1400C38528 /* Products */,
+				9D136F623ABABBAF69B96132 /* Pods */,
+				437FD6833D9EAC839D292E14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = ArInnoUITests;
 			sourceTree = "<group>";
 		};
+		437FD6833D9EAC839D292E14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E49F40078B417D009BA22499 /* Pods_ArInno.framework */,
+				3EC30C81D515F4B1A38F6098 /* Pods_ArInnoTests.framework */,
+				14BB09048544C16C60689AFE /* Pods_ArInnoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D136F623ABABBAF69B96132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EE57E2E749195D2E1CEE74A /* Pods-ArInno.debug.xcconfig */,
+				05A4009B8B27170475071439 /* Pods-ArInno.release.xcconfig */,
+				DD0B06AB4E9C4DEFD6227B24 /* Pods-ArInnoTests.debug.xcconfig */,
+				917CE0A4EC45A16AF200F9DA /* Pods-ArInnoTests.release.xcconfig */,
+				55191FE7CB65D75C10D24F23 /* Pods-ArInnoUITests.debug.xcconfig */,
+				ED4E9AD0C4890C18E69E6E7F /* Pods-ArInnoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F6C82DA232D5F1500C38528 /* Build configuration list for PBXNativeTarget "ArInno" */;
 			buildPhases = (
+				A4F91642B457291895A6495A /* [CP] Check Pods Manifest.lock */,
 				0F6C82AC232D5F1400C38528 /* Sources */,
 				0F6C82AD232D5F1400C38528 /* Frameworks */,
 				0F6C82AE232D5F1400C38528 /* Resources */,
+				3BC6432C71B223BDBB27A12D /* [CP] Embed Pods Frameworks */,
+				41B0982987B7A09E3C890501 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F6C82DD232D5F1500C38528 /* Build configuration list for PBXNativeTarget "ArInnoTests" */;
 			buildPhases = (
+				C0EC6161B9415C2CE5DC0BB6 /* [CP] Check Pods Manifest.lock */,
 				0F6C82C2232D5F1500C38528 /* Sources */,
 				0F6C82C3232D5F1500C38528 /* Frameworks */,
 				0F6C82C4232D5F1500C38528 /* Resources */,
@@ -170,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F6C82E0232D5F1500C38528 /* Build configuration list for PBXNativeTarget "ArInnoUITests" */;
 			buildPhases = (
+				C3B06E4E49DA32196D8F3113 /* [CP] Check Pods Manifest.lock */,
 				0F6C82CD232D5F1500C38528 /* Sources */,
 				0F6C82CE232D5F1500C38528 /* Frameworks */,
 				0F6C82CF232D5F1500C38528 /* Resources */,
@@ -254,6 +300,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC6432C71B223BDBB27A12D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArInno/Pods-ArInno-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArInno/Pods-ArInno-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArInno/Pods-ArInno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41B0982987B7A09E3C890501 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArInno/Pods-ArInno-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArInno/Pods-ArInno-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArInno/Pods-ArInno-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F91642B457291895A6495A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArInno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EC6161B9415C2CE5DC0BB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArInnoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B06E4E49DA32196D8F3113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArInnoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F6C82AC232D5F1400C38528 /* Sources */ = {
@@ -367,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +571,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,11 +583,13 @@
 		};
 		0F6C82DB232D5F1500C38528 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE57E2E749195D2E1CEE74A /* Pods-ArInno.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2CXQAZL4J;
 				INFOPLIST_FILE = ArInno/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +603,13 @@
 		};
 		0F6C82DC232D5F1500C38528 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A4009B8B27170475071439 /* Pods-ArInno.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T2CXQAZL4J;
 				INFOPLIST_FILE = ArInno/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +623,7 @@
 		};
 		0F6C82DE232D5F1500C38528 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0B06AB4E9C4DEFD6227B24 /* Pods-ArInnoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +645,7 @@
 		};
 		0F6C82DF232D5F1500C38528 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917CE0A4EC45A16AF200F9DA /* Pods-ArInnoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +667,7 @@
 		};
 		0F6C82E1232D5F1500C38528 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55191FE7CB65D75C10D24F23 /* Pods-ArInnoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +688,7 @@
 		};
 		0F6C82E2232D5F1500C38528 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4E9AD0C4890C18E69E6E7F /* Pods-ArInnoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
